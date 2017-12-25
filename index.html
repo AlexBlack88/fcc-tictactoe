@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ticTacToe2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="header">
+  <h1><span class="y">T</span>ic <span class="y">T</span>ac <span class="y">T</span>oe  <span class="game">    game</span></h1>
+</div>
+<p class="choose">Choose X or O and play</p>
+<div class="btns">
+  <button type="button" class="btn btn-lg btn-outline-warning" id="pickX">Pick X</button>
+  <button type="button" class="btn btn-lg btn-outline-warning" id="pickO">Pick O</button>
+</div>
+<table>
+  <tr>
+    <td class="cell" data-i=0 data-j=0></td>
+    <td class="cell" data-i=0 data-j=1></td>
+    <td class="cell" data-i=0 data-j=2></td>
+  </tr>
+  <tr>
+    <td class="cell" data-i=1 data-j=0></td>
+    <td class="cell" data-i=1 data-j=1></td>
+    <td class="cell" data-i=1 data-j=2></td>
+  </tr>
+  <tr>
+    <td class="cell" data-i=2 data-j=0></td>
+    <td class="cell" data-i=2 data-j=1></td>
+    <td class="cell" data-i=2 data-j=2></td>
+  </tr>
+</table>
+
+<div class="gameover"></div>
+<p class="choose">Reset and play again?</p>
+<button type="button" class="btn btn-lg btn-outline-warning" id="reset">Reset</button>
+<div class="divider"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
